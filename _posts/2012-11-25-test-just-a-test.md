@@ -108,5 +108,5 @@ A backtick-delimited string in a code span: `` `foo` ``
 
 #### 图片 (IMAGE)
 
-![Alt text](/assets/themes/twitter/bootstrap/img "Img")
+![Alt text](/assets/themes/twitter/bootstrap/img/glyphicons-halflings.png "Img")
 
