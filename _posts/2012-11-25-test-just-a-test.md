@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Markdown Tips"
-description: 
-category:
-tags: test
+description: "Some markdown tips, hope you enjoy it~"
+category: tips
+tags: [markdown, tips]
 ---
 {% include JB/setup %}
 
