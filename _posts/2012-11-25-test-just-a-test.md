@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Markdown Tips"
-description: ""
+description: 
 category:
 tags: test
 ---
@@ -108,6 +108,6 @@ A backtick-delimited string in a code span: `` `foo` ``
 
 #### 图片 (IMAGE)
 
-![Alt text](/path/to/img.png)
+    ![Alt text](/path/to/img.png)
 
-![Alt text](/path/to/img.jpg "Img”)
+    ![Alt text](/path/to/img.jpg "Img”)
