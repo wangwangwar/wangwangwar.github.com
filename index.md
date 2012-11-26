@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 无聊和乏味的工作是罪恶
-tagline: 
+tagline: devil
 ---
 {% include JB/setup %}
 
