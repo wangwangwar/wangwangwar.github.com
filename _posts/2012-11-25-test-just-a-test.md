@@ -50,6 +50,12 @@ This is a blockquote with two paragraphs.
 
 #### 列表 (LIST)
 
+*中文的列表有问题，必须把markdown引擎由默认的 maruku 换成 rdiscount 或者其他的。*
+
+在配置文件 `_config.yml` 中添上 
+
+    markdown: rdiscount
+
 * 星号可以
 + 加号亦可
 - 减号居然也可以
