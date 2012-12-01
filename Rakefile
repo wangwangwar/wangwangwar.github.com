@@ -42,7 +42,7 @@ end #JB
 
 desc "Print help"
 task :default do
-  print "Usage:
+  print "Usage: 
     rake post title=\"the-title\" [date=\"2012-02-09\"]
     rake page name=\"page-name.html\"
         # You can also specify a sub-directory path.
