@@ -1,9 +1,15 @@
 /* Override some defaults */
 html, body {
-  background-color: #eee;
+  background-color: #444;
+}
+h1 {
+  font-size: 40px;
 }
 .navbar {
   margin-bottom: 0;
+}
+.navbar-inner {
+  background-image: -webkit-linear-gradient(top, #444, #333);
 }
 .container > footer {
   margin-top: 20px;
@@ -27,7 +33,7 @@ html, body {
 
 /* Page header tweaks */
 .page-header {
-  background-color: #f5f5f5;
+  background-color: #fff;
   padding: 20px 20px 10px;
   margin: -20px -20px 20px;
 }

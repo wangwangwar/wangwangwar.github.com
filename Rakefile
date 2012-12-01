@@ -40,6 +40,23 @@ module JB
   end #Path
 end #JB
 
+desc "Print help"
+task :default do
+  print "Usage:
+    rake post title=\"the-title\" [date=\"2012-02-09\"]
+    rake page name=\"page-name.html\"
+        # You can also specify a sub-directory path.
+        # If you don't specify a file extention we create an index.html at the path specified
+    rake preview 
+        # Launch preview environment
+    rake theme:switch name=\"the-theme\"
+    rake theme:install git=\"the-url\"
+    rake theme:install name=\"the-theme\"
+    theme:package name=\"the-theme\"
+        # Package a theme using the theme packager.
+"
+end
+
 # Usage: rake post title="A Title" [date="2012-02-09"]
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
