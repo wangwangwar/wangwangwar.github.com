@@ -2,7 +2,7 @@
 layout: post
 title: "something original from twitter bootstrap"
 description:
-categories: ["html|css|js"]
+categories: ["web"]
 tags: ["twitter/bootstrap", "css", "js"]
 ---
 {% include JB/setup %}
