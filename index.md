@@ -1,11 +1,22 @@
 ---
-layout: page
-title: 无聊和乏味的工作是罪恶
+layout: index
+title: index
 ---
 {% include JB/setup %}
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<div class="hero-unit">
+<h1>HACKER NEWS</h1>
+<p>
+<pre>
+To follow the path: <br/>
+look to the master, <br/>
+follow the master, <br/>
+walk with the master, <br/>
+see through the master, <br/>
+become the master.
+</pre>
+
+</p>
+</div>
+
+
