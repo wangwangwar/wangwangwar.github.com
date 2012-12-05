@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Kung Fu Website"
+title: Kung Fu Website
 description: ""
-category: "misc"
-tags: ["wfg", "network"]
+categories: [misc]
+tags: [wfg, network]
 ---
 {% include JB/setup %}

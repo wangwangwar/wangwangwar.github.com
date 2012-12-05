@@ -2,8 +2,8 @@
 layout: post
 title: "software is mathematics"
 description: ""
-category: 
-tags: []
+categories: [misc]
+tags: [mathematics]
 ---
 {% include JB/setup %}
 

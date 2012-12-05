@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Become A Hacker
-catogory: hacker
+catogories: [misc]
 tags: [hacker]
 ---
 {% include JB/setup %}

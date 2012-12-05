@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "something original from twitter bootstrap"
-description:
-categories: ["web"]
-tags: ["twitter/bootstrap", "css", "js"]
+title: something original from twitter bootstrap
+description: 
+categories: [web]
+tags: [twitter/bootstrap, css, js]
 ---
 {% include JB/setup %}
 
