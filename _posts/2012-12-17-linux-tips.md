@@ -4,7 +4,7 @@ title: "linux tips"
 tagline: 
 description: 
 categories: [tools]
-tags: [linux, tips]
+tags: [linux, tips, sed]
 ---
 {% include JB/setup %}
 
