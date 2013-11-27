@@ -55,4 +55,15 @@ categories: ["python"]
 		D['a'] # 返回 2
 		D['not exist'] # 返回 0
 
++ python 调用函数时使用星号 \*, \** [[star]][2]
+
+		* 的作用其实就是把序列 args 中的每个元素，当作位置参数传进去。如果 args 等于 (1,2,3) ，那么这个代码就等价于 
+		test(*args)
+		test(1, 2, 3)
+		** 的作用则是把字典 kwargs 变成关键字参数传递。如果 kwargs 等于 {'a':1,'b':2,'c':3} ，那这个代码就等价于
+		test(*kwargs)
+		test(a=1,b=2,c=3)
+
+
 [1]: http://docs.python.org/2/library/collections.html#collections.defaultdict
+[2]: http://hi.baidu.com/jiyeqian/item/a1ec88c42021ad7189ad9eda
