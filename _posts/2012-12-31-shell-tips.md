@@ -26,3 +26,13 @@ for i in /home/*.sh; do
 # num
 for i in {1..10}; do
 {% endhighlight %}
+
+
++ 截取字符串
+
+{% highlight sh linenos %}
+v=hello
+a=${v#v=}
+echo a	# hello
+{% endhighlight %}
+	
