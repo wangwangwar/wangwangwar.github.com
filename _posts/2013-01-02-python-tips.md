@@ -92,5 +92,9 @@ with open(filename) as f:
 {% endhighlight %}
 
 
+##### slice
+[总结][3]
+
 [1]: http://docs.python.org/2/library/collections.html#collections.defaultdict
 [2]: http://hi.baidu.com/jiyeqian/item/a1ec88c42021ad7189ad9eda
+[3]: http://shmilyaw-hotmail-com.iteye.com/blog/1782733
