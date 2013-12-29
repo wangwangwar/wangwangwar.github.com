@@ -95,6 +95,25 @@ with open(filename) as f:
 ##### slice
 [总结][3]
 
+
+##### map and filter in python3
+
+在python2中，map和filter返回的是list，而在python3中，返回的是
+generator，如果map的func参数中有打印语句什么的，将不会打印。
+将generator转换为list，让lazy变成greedy，就会打印出来。
+
+{% highlight python linenos %}
+def show(item):
+    print(item)
+
+# nothing
+map(show, range(10))
+
+# print 0 to 9
+list(map(show, range(10)))
+{% endhighlight %}
+
+
 [1]: http://docs.python.org/2/library/collections.html#collections.defaultdict
 [2]: http://hi.baidu.com/jiyeqian/item/a1ec88c42021ad7189ad9eda
 [3]: http://shmilyaw-hotmail-com.iteye.com/blog/1782733
