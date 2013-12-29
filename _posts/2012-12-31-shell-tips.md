@@ -36,3 +36,16 @@ a=${v#v=}
 echo a	# hello
 {% endhighlight %}
 	
+
++ tee 的用法 [1][1]
+
+{% highlight sh linenos %}
+# 会提示没有权限，因为 `>` 也是一个命令，`sudo`只能给一个命令权限
+sudo echo 1 > /root/some/thing
+# 改用tee
+echo 1 | sudo tee /root/some/thing
+{% endhighlight %}
+
+
+---
+[1]: http://blog.c1gstudio.com/archives/1255
