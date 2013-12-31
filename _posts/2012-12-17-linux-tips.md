@@ -36,3 +36,10 @@ tags: [linux, tips, sed]
 删除包含 junk 的行
 
 	sed -i '/junk/d' file
+	
+### kill
+
+kill 默认发出 15 SIGTERM 信号，这是可以被进程忽略的，
+如果需要强制终止进程，指定发送9 SIGKILL。
+	
+	kill -9 <pid>
