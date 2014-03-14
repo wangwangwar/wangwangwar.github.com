@@ -36,7 +36,12 @@ tags: [linux, tips, sed]
 删除包含 junk 的行
 
 	sed -i '/junk/d' file
-	
+
+### sed 替换
+找出所有的".py"文件, 然后替换其中某些词:
+
+	find . -iname "*.py" | xargs sed -i 's/something/otherthing/g'
+
 ### kill
 
 kill 默认发出 15 SIGTERM 信号，这是可以被进程忽略的，
